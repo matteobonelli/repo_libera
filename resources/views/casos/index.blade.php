@@ -4,6 +4,6 @@
 
 @section('content')
 
-<h1>Caso</h1>
+<h1>Caso Merry Xmas</h1>
 
 @endsection
