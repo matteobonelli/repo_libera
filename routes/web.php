@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/caso', [CasoController::class,'index'])->name('caso');
+Route::get('/caso', [CasoController::class,'caso'])->name('caso');
