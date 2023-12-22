@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CasoController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
+
+Route::get('/caso', [CasoController::class,'index'])->name('caso');
