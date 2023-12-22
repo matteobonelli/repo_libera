@@ -16,6 +16,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('home');
 
-Route::get('/caso', [CasoController::class,'index'])->name('casos.index');
+Route::get('/caso', [CasoController::class, 'index'])->name('casos.index');
